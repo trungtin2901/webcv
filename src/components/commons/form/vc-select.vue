@@ -15,7 +15,7 @@ import _ from 'lodash';
 import { ref, toRef, watch, useAttrs, computed } from 'vue'
 
 const props = defineProps<{
-  items: any[]
+  items: any
   rules?: []
   modelValue: any
 }>()
